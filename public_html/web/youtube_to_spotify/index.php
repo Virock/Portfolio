@@ -7,7 +7,7 @@ topOfPage("Youtube to Spotify - Export youtube playlists to spotify", "Youtube t
 pageHeader("Youtube to Spotify", "images/export_big.png");
 navLinks();
 ?>
-<p class="col-md-offset-2 col-md-8 col-md-offset-2 well-lg">This web app converts youtube playlists to spotify. You simply enter the url of the public youtube playlist (will not work with private playlists) and enter the name to give the new playlist on spotify and wait a while. It'll be done before you know it. Here is the link to the website <a target='_blank' href='https://virock.com.ng/tools/youtube-to-spotify/'>Youtube to Spotify</a>.<br>You will need to give the app permission to access your spotify account. The only permission it requests is to manage your playlists.</p>
+<p class="col-md-offset-2 col-md-8 col-md-offset-2 well-lg">This web app converts youtube playlists to spotify. You simply enter the url of the public youtube playlist (will not work with private playlists) and enter the name to give the new playlist on spotify and wait a while. It'll be done before you know it. Here is the link to the website <a target='_blank' href='https://virock.net/tools/youtube-to-spotify/'>Youtube to Spotify</a>.<br>You will need to give the app permission to access your spotify account. The only permission it requests is to manage your playlists.</p>
 <?php
 
 $images = ["images/export_img3.png", "images/export_img4.png"];

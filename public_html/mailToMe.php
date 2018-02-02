@@ -39,7 +39,7 @@ if (!isset($_POST['Name']) || !isset($_POST['Email']) || !isset($_POST['message'
         $message = wordwrap($message, 70);
         $headers = "From: $email\r\n";
         $headers .= 'Content-Type: text/plain; charset=utf-8';
-        mail('victorskywatch@gmail.com', 'Mail from user at virock.com.ng', $message, $headers);
+        mail('victorskywatch@gmail.com', 'Mail from user at virock.net', $message, $headers);
         //Show confirmation that we've received the message
         ajaxReply("success");
         header("Location: $referer?success=true#formAnchor");
